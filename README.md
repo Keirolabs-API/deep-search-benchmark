@@ -21,7 +21,7 @@ A benchmark of Keiro's deep search endpoint, `POST /api/v2/deep`, on 200 SimpleQ
 | Latency | median 7.5 s, 90th percentile 18.1 s |
 | Stopped early | 143 of 200 calls (median 6.3 s): two independent sites agreed, so it stopped reading |
 | Best page ranked first | 154 of 200 |
-| Price | 5 credits per call on every plan |
+| Price | 2 credits per call on every plan |
 
 ### Does `answer_status` mean what it says?
 
@@ -83,7 +83,7 @@ export OPENROUTER_API_KEY=...   # runs the judge
 python bench_deep.py
 ```
 
-The SimpleQA CSV downloads on first run. Each question is one deep call (5 credits).
+The SimpleQA CSV downloads on first run. Each question is one deep call (2 credits).
 
 | Variable | Default | |
 |---|---|---|
